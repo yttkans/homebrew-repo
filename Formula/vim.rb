@@ -7,13 +7,6 @@ class Vim < Formula
   license "Vim"
   head "https://github.com/vim/vim.git"
 
-  bottle do
-    sha256 arm64_big_sur: "412086ac24b6b9da1d3d612abea3f0475ee6999918e138c3f2728db5c7a331b2"
-    sha256 big_sur:       "e54a58c050bd5df985c293cc301cf7827560901d232ccdc5d70f223874caeabb"
-    sha256 catalina:      "14f56cecb36ff9020110db1497a754bd0cb95c6071faa38bd766f1058071a06d"
-    sha256 mojave:        "bd27615ff5264d44774e962bb0f5c26696ec85e2ce51849c8adec7ed2d6d71ae"
-  end
-
   depends_on "gettext"
   depends_on "lua"
   depends_on "perl"
