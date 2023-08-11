@@ -1,4 +1,4 @@
-cask "keepassxc" do
+cask "keepassxc_2_7_4" do
   arch arm: "arm64", intel: "x86_64"
 
   version "2.7.4"
